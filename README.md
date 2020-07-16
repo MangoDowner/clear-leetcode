@@ -13,4 +13,5 @@
     * [力扣千题](indexes/力扣千题.md)
     * [剑指Offer](indexes/剑指Offer.md)
     * [面试题](indexes/面试题.md)
-    
+* 专题
+    * [适合一起团灭的题](indexes/类似题.md)
