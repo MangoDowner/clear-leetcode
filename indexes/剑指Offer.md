@@ -1,2 +1,3 @@
 > 目录尚在整理中...
+* [剑指 Offer 17. 打印从1到最大的n位数](../problems/剑指Offer17.打印从1到最大的n位数.md)
 * [剑指 Offer 40. 最小的k个数](../problems/剑指Offer40.最小的k个数.md)
