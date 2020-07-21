@@ -1,3 +1,5 @@
+> 原题链接：[287. 寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)
+
 # 模拟写法
 ### 解题思路
 * 1、初始化要得到的结果``result``，为``{cont[len(cont)-1], 1}``，
