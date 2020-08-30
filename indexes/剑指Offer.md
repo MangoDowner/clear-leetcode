@@ -4,5 +4,7 @@
 * [剑指 Offer 18. 删除链表的节点](../problems/剑指Offer18.删除链表的节点.md)
 * [剑指 Offer 22. 链表中倒数第k个节点](../problems/剑指Offer22.链表中倒数第k个节点.md)
 * [剑指 Offer 31. 栈的压入、弹出序列](../problems/剑指Offer31.栈的压入、弹出序列.md)
+* [剑指 Offer 38. 字符串的排列](../problems/剑指Offer38.字符串的排列.md)
 * [剑指 Offer 40. 最小的k个数](../problems/剑指Offer40.最小的k个数.md)
+* [剑指 Offer 58 - I. 翻转单词顺序](../problems/剑指Offer58-I.翻转单词顺序.md)
 * [剑指 Offer 65. 不用加减乘除做加法](../problems/剑指Offer65.不用加减乘除做加法.md)

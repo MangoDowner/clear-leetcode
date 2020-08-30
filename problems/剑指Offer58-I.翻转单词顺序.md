@@ -1,5 +1,6 @@
-# 151. 翻转字符串里的单词
-> 原题链接：[151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
+# 剑指 Offer 58 - I. 翻转单词顺序
+
+> 原题链接：[剑指 Offer 58 - I. 翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)
 
 # 自制去空格&双端队列
 ## 使用自带函数
