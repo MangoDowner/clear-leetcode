@@ -1,7 +1,9 @@
 > 目录尚在整理中...
 * [剑指 Offer 17. 打印从1到最大的n位数](../problems/剑指Offer17.打印从1到最大的n位数.md)
 * [剑指 Offer 09. 用两个栈实现队列](../problems/剑指Offer09.用两个栈实现队列.md)
+* [剑指 Offer 11. 旋转数组的最小数字](../problems/剑指Offer11.旋转数组的最小数字.md)
 * [剑指 Offer 18. 删除链表的节点](../problems/剑指Offer18.删除链表的节点.md)
+* [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](../problems/剑指Offer21.调整数组顺序使奇数位于偶数前面.md)
 * [剑指 Offer 22. 链表中倒数第k个节点](../problems/剑指Offer22.链表中倒数第k个节点.md)
 * [剑指 Offer 31. 栈的压入、弹出序列](../problems/剑指Offer31.栈的压入、弹出序列.md)
 * [剑指 Offer 38. 字符串的排列](../problems/剑指Offer38.字符串的排列.md)
