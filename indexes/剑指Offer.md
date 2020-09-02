@@ -8,6 +8,8 @@
 * [剑指 Offer 24. 反转链表](../problems/剑指Offer/剑指Offer24.反转链表.md)
 * [剑指 Offer 27. 二叉树的镜像](../problems/剑指Offer/剑指Offer27.二叉树的镜像.md)
 * [剑指 Offer 31. 栈的压入、弹出序列](../problems/剑指Offer/剑指Offer31.栈的压入、弹出序列.md)
+* [剑指 Offer 33. 二叉搜索树的后序遍历序列](../problems/剑指Offer/剑指Offer33.二叉搜索树的后序遍历序列.md)
+* [剑指 Offer 37. 序列化二叉树](../problems/剑指Offer/剑指Offer37.序列化二叉树.md)
 * [剑指 Offer 38. 字符串的排列](../problems/剑指Offer/剑指Offer38.字符串的排列.md)
 * [剑指 Offer 40. 最小的k个数](../problems/剑指Offer/剑指Offer40.最小的k个数.md)
 * [剑指 Offer 58 - I. 翻转单词顺序](../problems/剑指Offer/剑指Offer58-I.翻转单词顺序.md)
