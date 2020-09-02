@@ -7,6 +7,7 @@
 * [剑指 Offer 22. 链表中倒数第k个节点](../problems/剑指Offer/剑指Offer22.链表中倒数第k个节点.md)
 * [剑指 Offer 24. 反转链表](../problems/剑指Offer/剑指Offer24.反转链表.md)
 * [剑指 Offer 27. 二叉树的镜像](../problems/剑指Offer/剑指Offer27.二叉树的镜像.md)
+* [剑指 Offer 29. 顺时针打印矩阵](../problems/剑指Offer/剑指Offer29.顺时针打印矩阵.md)
 * [剑指 Offer 31. 栈的压入、弹出序列](../problems/剑指Offer/剑指Offer31.栈的压入、弹出序列.md)
 * [剑指 Offer 33. 二叉搜索树的后序遍历序列](../problems/剑指Offer/剑指Offer33.二叉搜索树的后序遍历序列.md)
 * [剑指 Offer 37. 序列化二叉树](../problems/剑指Offer/剑指Offer37.序列化二叉树.md)
