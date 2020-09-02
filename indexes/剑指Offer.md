@@ -10,3 +10,4 @@
 * [剑指 Offer 40. 最小的k个数](../problems/剑指Offer40.最小的k个数.md)
 * [剑指 Offer 58 - I. 翻转单词顺序](../problems/剑指Offer58-I.翻转单词顺序.md)
 * [剑指 Offer 65. 不用加减乘除做加法](../problems/剑指Offer65.不用加减乘除做加法.md)
+* [剑指 Offer 66. 构建乘积数组](../problems/剑指Offer66.构建乘积数组.md)
