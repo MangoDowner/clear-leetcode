@@ -1,0 +1,42 @@
+# 剑指 Offer 07. 重建二叉树
+
+> 原题链接：[剑指 Offer 07. 重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof)
+
+### 代码
+```golang
+/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val int
+ *     Left *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+func buildTree(preorder []int, inorder []int) *TreeNode {
+	// 哈希表,预存储中序遍历的值与索引的映射关系
+	inOrderValueToIndex := make(map[int]int)
+	for k, v := range inorder {
+		inOrderValueToIndex[v] = k
+	}
+
+	var recursive func(preRootIndex, inLeft, inRight int) *TreeNode
+	recursive = func(preRootIndex, inLeft, inRight int) *TreeNode {
+		if inLeft > inRight {
+			return nil
+		}
+		// 建立当前子树的根节点
+		root := &TreeNode{Val: preorder[preRootIndex]}
+		// 搜索根节点在中序遍历中的索引，从而可对根节点、左子树、右子树完成划分
+		// 可将中序遍历划分为 [ 左子树 | 根节点 | 右子树 ]
+		inRootIndex := inOrderValueToIndex[preorder[preRootIndex]]
+		// 左子树的根节点就是 左子树的(前序遍历）第一个，就是+1
+		root.Left = recursive(preRootIndex+1, inLeft, inRootIndex-1)
+		// 根节点索引为：根节点索引 + 左子树长度 + 1
+		root.Right = recursive(preRootIndex+inRootIndex-inLeft+1, inRootIndex+1, inRight)
+		// 返回根节点，作为上层递归的左（右）子节点
+		return root
+	}
+
+	return recursive(0, 0, len(preorder)-1)
+}
+```
