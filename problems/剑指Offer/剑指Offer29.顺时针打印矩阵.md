@@ -2,7 +2,7 @@
 ### 解题思路
 就按照人划线的思路来做就好了：
 
-![1](../pictures/problems/offer29/1.png)
+![1](../../pictures/problems/offer29/1.png)
 
 1、运动方向分成四个：
 ```
