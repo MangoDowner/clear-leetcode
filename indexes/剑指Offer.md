@@ -3,6 +3,7 @@
 * [剑指 Offer 06. 从尾到头打印链表](../problems/剑指Offer/剑指Offer06.从尾到头打印链表.md)
 * [剑指 Offer 07. 重建二叉树](../problems/剑指Offer/剑指Offer07.重建二叉树.md)
 * [剑指 Offer 09. 用两个栈实现队列](../problems/剑指Offer/剑指Offer09.用两个栈实现队列.md)
+* [剑指 Offer 10- II. 青蛙跳台阶问题](../problems/剑指Offer/剑指Offer10-II.青蛙跳台阶问题.md)
 * [剑指 Offer 11. 旋转数组的最小数字](../problems/剑指Offer/剑指Offer11.旋转数组的最小数字.md)
 * [剑指 Offer 17. 打印从1到最大的n位数](../problems/剑指Offer/剑指Offer17.打印从1到最大的n位数.md)
 * [剑指 Offer 18. 删除链表的节点](../problems/剑指Offer/剑指Offer18.删除链表的节点.md)
