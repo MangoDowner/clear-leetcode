@@ -11,7 +11,7 @@
     * （1）如果栈B不为空，则直接弹出栈B的数据。
     * （2）如果栈B为空，则依次弹出栈A的数据，放入栈B中，再弹出栈B的数据。
 ### 代码
-```golang
+```go
 type CQueue struct {
 	write []int
 	read []int

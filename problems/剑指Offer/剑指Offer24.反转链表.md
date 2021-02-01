@@ -4,7 +4,7 @@
 ### 解题思路
 
 ### 代码
-```golang
+```go
 func reverseList(head *ListNode) *ListNode {
 	var cur, pre, next *ListNode
 	cur, next = head, head

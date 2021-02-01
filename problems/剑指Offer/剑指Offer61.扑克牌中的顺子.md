@@ -8,7 +8,7 @@
 * 3、统计空缺的数数量，也就是相隔超过1的两张牌中间的牌，比如``2``和``4``之间，缺了``3``
 * 4、比较``joker``牌数量是否大于等于空缺牌数量，是的话，就可以用万能的``joker``牌来顶替缺失牌
 ### 代码
-```golang
+```go
 public class Solution
 {
     public bool IsStraight(int[] nums)

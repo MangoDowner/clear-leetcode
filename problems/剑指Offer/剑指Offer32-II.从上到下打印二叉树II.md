@@ -4,7 +4,7 @@
 ### 解题思路
 如题，用一个队列，一层一层遍历就好了
 ### 代码
-```golang
+```go
  levelOrder(root *TreeNode) [][]int {
 	var result [][]int
 	if root == nil {

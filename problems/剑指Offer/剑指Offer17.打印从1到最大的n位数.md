@@ -2,7 +2,7 @@
 ## 确定最大值后，开辟相应空间数组
 ### 解题思路
 ### 代码
-```golang
+```go
 func printNumbers(n int) []int {
 	max := 9
 	for i := 1; i <n;i++ {
@@ -21,7 +21,7 @@ func printNumbers(n int) []int {
 
 其中要注意过滤到前置0，比如``008``这样的数字，最好转化为``8``。
 ### 代码
-```golang
+```go
 var result []string
 func printNumbers(n int) []string {
 	result = []string{}

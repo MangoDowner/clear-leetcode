@@ -7,7 +7,7 @@
 * 2、从后往前遍历，求出每个数的前缀乘积
 * 3、再次遍历数组，从每个数的前缀积乘以后缀积，就是我们要的结果了
 ### 代码
-```golang
+```go
 func constructArr(a []int) []int {
 	l := len(a)
 	if l <= 1 {
@@ -31,7 +31,7 @@ func constructArr(a []int) []int {
 }
 ```
 或者改进一下，减少一次循环
-```golang
+```go
 func constructArr(a []int) []int {
 	l := len(a)
 	if l <= 1 {

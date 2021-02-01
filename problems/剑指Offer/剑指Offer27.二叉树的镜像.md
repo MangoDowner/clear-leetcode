@@ -4,7 +4,7 @@
 ### 解题思路
 要实现二叉树的镜像反转，只需交换二叉树中所有结点的左右孩子即可。由于对所有的结点都做了同样的操作，因此，可以用递归的方法来实现，实现代码如下
 ### 代码
-```golang
+```go
 func mirrorTree(root *TreeNode) *TreeNode {
 	if root == nil {
 		return root
@@ -19,7 +19,7 @@ func mirrorTree(root *TreeNode) *TreeNode {
 ## 广度优先遍历
 ### 解题思路
 ### 代码
-```golang
+```go
 func mirrorTree(root *TreeNode) *TreeNode {
 	if root == nil {
 		return root

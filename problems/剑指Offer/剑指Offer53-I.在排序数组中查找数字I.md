@@ -7,7 +7,7 @@
 1、利用``二分法``分别找出``target``数字出现在数组的左右边界
 2、``右边界-左边界+1``就是咱们要的最终结果
 ### 代码
-```golang
+```go
 func search(nums []int, target int) int {
 	return rightBound(nums, target) - leftBound(nums, target) + 1
 }

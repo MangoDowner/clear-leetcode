@@ -11,7 +11,7 @@
 * 3、返回空数组，代表无和为 ``target`` 的数字组合。
 
 ### 代码
-```golang
+```go
 func twoSum(nums []int, target int) []int {
 	var result []int
 	l := len(nums)

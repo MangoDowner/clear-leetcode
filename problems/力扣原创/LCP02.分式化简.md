@@ -29,7 +29,7 @@ result[0], result[1] = cont[i] * result[0] + result[1], result[0]
 
 ### 代码
 
-```golang
+```go
 func fraction(cont []int) []int {
 	l := len(cont)
 	result := []int{cont[l-1], 1}

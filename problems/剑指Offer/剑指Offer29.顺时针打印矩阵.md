@@ -32,7 +32,7 @@
 运动结束的时候，也就是上下边界 / 左右边界 重叠的时候。
 ### 代码
 按照这个思路写出代码就好啦！
-```golang
+```go
 func spiralOrder(matrix [][]int) []int {
     if len(matrix) == 0 {
 		return []int{}

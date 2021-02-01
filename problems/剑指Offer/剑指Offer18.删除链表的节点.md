@@ -3,7 +3,7 @@
 > 原题链接：[剑指 Offer 18. 删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
 
-```golang
+```go
 func deleteNode(head *ListNode, val int) *ListNode {
 	dummy := &ListNode{
 		Next: head,
@@ -20,7 +20,7 @@ func deleteNode(head *ListNode, val int) *ListNode {
 }
 ```
 或者
-```golang
+```go
 func deleteNode(head *ListNode, val int) *ListNode {
 	if head.Val == val {
 		return head.Next
@@ -47,7 +47,7 @@ func deleteNode(head *ListNode, val int) *ListNode {
 * （1）如果这个结点是链表的最后一个结点，那么无法删除这个结点。
 * （2）如果这个结点不是链表的最后一个结点，可以通过把其后继结点的数据复制到当前结点中，然后删除后继结点的方法来实现。
 ### 代码
-```golang
+```go
 func deleteNode(node *ListNode) bool {
 	if node == nil || node.Next == nil {
 		return false

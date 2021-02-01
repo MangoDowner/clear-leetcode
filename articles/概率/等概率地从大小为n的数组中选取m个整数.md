@@ -16,7 +16,7 @@
 * 4、依次类推，直到选出``m``个数字为止，数组前``m``个数字就是随机选出来的``m``个数字，且它们被选中的概率相等
 
 ### 代码
-```golang
+```go
 func getRandomM(a []int, n, m int) {
 	if len(a) == 0 || n < m {
 		return

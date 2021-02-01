@@ -13,7 +13,7 @@
 
 因此，可以通过递归方法来实现
 ### 代码
-```golang
+```go
 func verifyPostorder(postorder []int) bool {
 	return isPostOrder(postorder, 0, len(postorder)-1)
 }

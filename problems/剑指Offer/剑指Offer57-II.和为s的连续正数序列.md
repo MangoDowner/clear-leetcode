@@ -11,7 +11,7 @@
 * 4、如果``sum``小于``target``值，增大窗口，通过右移右指针，将右边的数字加入窗口
 * 5、左指针最多能移动到``target+1/2``的地方，因为至少需要两个数字，那么最大也就是中间的数字了
 ### 代码
-```golang
+```go
 func findContinuousSequence(target int) [][]int {
 	var result [][]int
 	if target < 3 {

@@ -15,7 +15,7 @@
 其中，要注意，链表可能没有``k``那么长，那么倒数第``k``位，就是``nil``了
 
 ### 代码
-```golang
+```go
 func getKthFromEnd(head *ListNode, k int) *ListNode {
 	if head == nil || head.Next == nil {
 		return head

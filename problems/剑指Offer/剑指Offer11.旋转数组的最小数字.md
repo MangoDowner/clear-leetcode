@@ -21,7 +21,7 @@
 
 ### 解题思路
 ### 代码
-```golang
+```go
 func minArray(nums []int) int {
 	l := len(nums)
 	return minArrayFromTo(nums, 0, l-1)
@@ -93,7 +93,7 @@ func min(a, b int) int {
 
 
 ### 代码
-```golang
+```go
 func minArray(nums []int) int {
 	left, right := 0, len(nums)-1
 	for left < right {

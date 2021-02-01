@@ -11,7 +11,7 @@
 * 时间复杂度为O(n)
 * 空间复杂度为O(n)
 ### 代码
-```golang
+```go
 func validateStackSequences(pushed []int, popped []int) bool {
 	pushLen, popLen := len(pushed), len(popped)
 	// 长度不同，肯定不对

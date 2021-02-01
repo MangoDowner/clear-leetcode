@@ -48,7 +48,7 @@ two = two ^ n & ~one
 ```
 
 ### 代码
-```golang
+```go
 func singleNumber(nums []int) int {
 	ones, twos := 0, 0
 	for _, v := range nums {

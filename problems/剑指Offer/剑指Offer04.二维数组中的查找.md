@@ -6,7 +6,7 @@
 * 3、这次咱们使用从右上角开始遍历，即row从小到大，col从大到小
 
 ### 代码
-```golang
+```go
 func findNumberIn2DArray(matrix [][]int, target int) bool {
 	rowNum := len(matrix)
 	if rowNum == 0 {

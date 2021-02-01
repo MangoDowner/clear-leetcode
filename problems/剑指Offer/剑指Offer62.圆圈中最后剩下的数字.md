@@ -37,7 +37,7 @@
 
 
 ### 代码
-```golang
+```go
 func lastRemaining(n int, m int) int {
 	result := 0
 	// 最后一轮剩下2个人，所以从2开始反推

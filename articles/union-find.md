@@ -1,5 +1,5 @@
 # 并查集
-```golang
+```go
 type UF struct {
     Count  int // 连通分量
 	Parent []int // 每个节点的根节点

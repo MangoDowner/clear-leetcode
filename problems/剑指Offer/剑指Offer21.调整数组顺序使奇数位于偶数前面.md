@@ -4,7 +4,7 @@
 ## 双指针法
 ###
 ### 代码
-```golang
+```go
 func exchange(nums []int) []int {
 	left, right := 0, len(nums) - 1
 	for left < right {

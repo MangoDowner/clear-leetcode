@@ -27,7 +27,7 @@
 所以，本题实现的主要思路为：在Trie树中存储IP地址，而在最后一个结点中存储对应的域名
 
 ### 代码
-```golang
+```go
 const CharCount = 11
 
 //Trie树
@@ -101,7 +101,7 @@ func (d *DNSCache) SearchDNSCache(ip string) string {
 }
 ```
 使用范例
-```golang
+```go
 func main() {
 	ipAddrs := []string{"10.57.11.127"}
 	urls := []string{"www.samsung.com"}

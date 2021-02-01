@@ -26,7 +26,7 @@ func reverseWords(s string) string {
 ### 解题思路
 如果只是上面那么做好像题目太简单了一点，咱么就自己把去空格的方法写了吧
 ### 代码 
-```golang
+```go
 func reverseWords(s string) string {
 	arr := trimSpace(s)
 	var reverseArr []string
@@ -58,13 +58,13 @@ func trimSpace(s string) (result []string) {
 ## 双端队列法
 ### 解题思路
 golang貌似不自带deque方法，所以咱们可以用下面的方法替代，将元素添加到数组头部
-```golang
+```go
 deque = append([]string{word}, deque...)
 ```
 
 ### 代码
 
-```golang
+```go
 func reverseWords(s string) string {
 	left, right := 0, len(s)-1
 	for left <= right && s[left] == ' '{

@@ -17,7 +17,7 @@
 即遇到重复字符时不交换，直接跳过。从 DFS 角度看，此操作称为 “剪枝” 
 
 ### 代码
-```golang
+```go
 var result []string
 
 func permutation(s string) []string {
