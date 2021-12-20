@@ -41,3 +41,6 @@ func (this *CQueue) DeleteHead() int {
 	return result
 }
 ```
+
+321
+
