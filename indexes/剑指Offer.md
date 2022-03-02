@@ -38,3 +38,4 @@
 * [剑指 Offer 68 - I. 二叉搜索树的最近公共祖先](../problems/剑指Offer/剑指Offer68-I.二叉搜索树的最近公共祖先.md)
 * [剑指 Offer 68 - II. 二叉树的最近公共祖先](../problems/剑指Offer/剑指Offer68-II.二叉树的最近公共祖先.md)
 * [剑指 Offer II 019. 最多删除一个字符得到回文](../problems/剑指Offer/剑指OfferII019.最多删除一个字符得到回文.md)
+* [剑指 Offer II 032. 有效的变位词](../problems/剑指Offer/剑指OfferII032.有效的变位词.md)
