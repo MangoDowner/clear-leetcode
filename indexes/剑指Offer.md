@@ -41,3 +41,7 @@
 * [剑指 Offer II 019. 最多删除一个字符得到回文](../problems/剑指Offer/剑指OfferII019.最多删除一个字符得到回文.md)
 * [剑指 Offer II 024. 反转链表](../problems/剑指Offer/剑指OfferII024.反转链表.md)
 * [剑指 Offer II 032. 有效的变位词](../problems/剑指Offer/剑指OfferII032.有效的变位词.md)
+* [剑指 Offer II 069. 山峰数组的顶部](../problems/剑指Offer/剑指OfferII069.山峰数组的顶部.md)
+
+* [面试题50. 第一个只出现一次的字符](../problems/剑指Offer/面试题50.第一个只出现一次的字符.md)
+
